@@ -71,7 +71,7 @@ body {
     border: 1px solid rgba(246, 72, 72, 1);
 }
 .spiner > *  {
-    background: rgba(246, 72, 72, 1);
+    background: #ff8921;
 }
 
 /*.options-btn:hover{
@@ -329,6 +329,7 @@ body {
     overflow-y: auto;
 }
 
+
 @media only screen and (max-width: 500px) {
     .chat-logs {
         height: 40vh;
@@ -399,7 +400,11 @@ body {
 .chat-msg.self>.cm-msg-text {
     float: right;
     background: #efefef;
-    /*color: white;*/
+    color: #777575;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 26px;
+    border-top-right-radius: 1px;
+    border-top-left-radius: 12px;
 }
 
 .cm-msg-button>ul>li {
