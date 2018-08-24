@@ -1,15 +1,15 @@
 //wrapping out the code inside the function
 $(function () {
-    const testing = true;
+    const testing = false;
 
     /*const url = "https://prodbm-dot-deeppixel-corebot.appspot.com";*/
-    const url = "";
+    const url = "https://stagingaz-dot-deeppixel-corebot.appspot.com";
     //const url = "";
-    const serversecret = "";
+    const serversecret = "XIV97UQ8HCFP718X";
     const sessionkey = generateSessionKey();
     /* const sessionkey = "nadia";*/
     /*const DPID = "9cb6c6b8-1055-4417-b5c7-e19aaae95ff4";*/
-    const DPID = "";
+    const DPID = "6c5358c4-beb8-4669-9749-5bcfb6c4e894";
 
 
     const build = testing ? "dist" : "dist";
@@ -210,7 +210,7 @@ $(function () {
             str += "<div id='cm-msg-" + INDEX + "' class=\"chat-msg " + type + "\">";
             str += "<span class=\"msg-avatar\">";
             /*str += "<i class=\"material-icons\">android<\/i>"*/
-            str += "<img class=\"chat-box-overlay_robot\" src=\"https://raw.githubusercontent.com/nadiaschutz/chat-bot-widget-dp-2/master/ROBOT.png\">"
+            str += "<img class=\"chat-box-overlay_robot\" src=\"source/girl.svg\">"
             str += "          <\/span>";
             str += "          <div class=\"cm-msg-text chat-font\">";
             str += msg;
